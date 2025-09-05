@@ -1,0 +1,9 @@
+## How to Test
+-------------------------------------------------------------
+
+1. Open the Flutter Web app in browser.
+2. Type a comment in the text box and click Post.
+3. The comment appears below the input box.
+4. Refresh page or restart backend → comments persist.
+
+-------------------------------------------------------------

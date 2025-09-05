@@ -1,0 +1,23 @@
+# Flutter Comments App
+
+A responsive Flutter Web app with a comment feature, connected to a Python FastAPI backend using SQLite,
+1. To store the comments permanent and 
+2. To view the existing comment.
+
+-------------------------------------------------------------------
+
+## **Features**
+
+- HTML content with proper viewport for responsiveness which supports all screen sizes.
+- Comment section where users can post and view the comments.
+- Backend stores comments permanently using SQLite database.
+- Works on all modern web browsers.
+
+-------------------------------------------------------------------
+
+Note: In frontend is configured to access the backend at http://localhost:8000/comments. 
+To test the app, and to ensure the FastAPI backend is running on your machine.
+
+-------------------------------------------------------------------
+
+
