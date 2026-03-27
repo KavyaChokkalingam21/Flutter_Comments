@@ -5,20 +5,14 @@
    cd flutter_comments_backend
 
 2. Activate virtual environment:
-   # Windows CMD
-   venv\Scripts\activate.bat
-   # PowerShell (if CMD fails)
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
-   venv\Scripts\activate
+If you face any errors while activating the environment,
+Create a new environment with the below command,
+python -m venv venv
 
-3. Install dependencies:
-   pip install fastapi uvicorn sqlalchemy
+2. Activate the scripts
+venv\Scripts\activate  or .\venv\Scripts\Activate.ps
 
-4. Run backend server:
-   uvicorn main:app --reload --host localhost --port 8000
-
-Backend runs at http://127.0.0.1:8000
-
+3. uvicorn main:app --reload
 ----------------------------------------------------------------
 
 ### Frontend (Flutter Web)
@@ -26,11 +20,9 @@ Backend runs at http://127.0.0.1:8000
 1. Navigate to Flutter project:
    cd my_flutter_app
 
-2. Install dependencies:
-   flutter pub get
-
-3. Run Flutter Web app:
-   flutter run -d chrome
+2. Run Flutter Web app:
+   To run in chrome - flutter run -d chrome
+   To run in Edge   - flutter run -d edge
 
 App will open in your default browser.
 
